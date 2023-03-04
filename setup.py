@@ -5,13 +5,13 @@ with open("README.md",'r') as fh:
 
 setuptools.setup(
     name = "Ddnet",
-    version = "0.0.2",
+    version = "0.0.3",
     author = "Zichuana",
     author_email = "2092653757@qq.com",
-    description = "This is a test.",
+    description = "The version number of Ddnet is 0.0.3!This project is not very useful!",
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    url="https://github.com/",
+    url="https://github.com/Zichuana/Ddnet",
     packages=setuptools.find_packages(),
     install_requires=['pandas','matplotlib','numpy','scipy','pandas_profiling','folium','seaborn'],
     # add any additional packages that needs to be installed along with SSAP package.

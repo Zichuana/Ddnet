@@ -10,7 +10,7 @@ import torch.utils.checkpoint as checkpoint
 
 
 def info():
-    print('The version number of Ddnet is 0.0.3！This project is not very useful！')
+    print('The version number of Ddnet is 0.0.3! This project is not very useful! ')
 
 
 def draw_features(width, height, x, savename, gray=False, dpi=100):
