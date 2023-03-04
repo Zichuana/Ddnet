@@ -5,7 +5,7 @@ with open("README.md",'r') as fh:
 
 setuptools.setup(
     name = "Ddnet",
-    version = "0.0.2",
+    version = "0.0.4",
     author = "Zichuana",
     author_email = "2092653757@qq.com",
     description = "This is a test. This project is not very useful!!!",
