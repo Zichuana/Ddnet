@@ -5,10 +5,10 @@ with open("README.md",'r') as fh:
 
 setuptools.setup(
     name = "Ddnet",
-    version = "0.0.3",
+    version = "0.0.2",
     author = "Zichuana",
     author_email = "2092653757@qq.com",
-    description = "The version number of Ddnet is 0.0.3!This project is not very useful!",
+    description = "This is a test. This project is not very useful!!!",
     long_description = long_description,
     long_description_content_type = "text/markdown",
     url="https://github.com/Zichuana/Ddnet",
