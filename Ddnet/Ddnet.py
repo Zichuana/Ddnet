@@ -1,12 +1,5 @@
-# TAILab Main
-from PIL import Image
-from torchvision import transforms
-import torch
-from torch.utils.tensorboard import SummaryWriter
-import torch.nn as nn
 import matplotlib.pyplot as plt
 import numpy as np
-import torch.utils.checkpoint as checkpoint
 
 
 def info():
