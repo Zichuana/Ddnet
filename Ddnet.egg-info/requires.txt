@@ -5,3 +5,5 @@ scipy
 pandas_profiling
 folium
 seaborn
+random
+os
