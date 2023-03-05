@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import random
 
 
 def info():
@@ -23,3 +24,15 @@ def draw_features(width, height, x, savename, gray=False, dpi=100):
     fig.savefig(savename, dpi=dpi)
     fig.clf()
     plt.close()
+
+
+def data_split(full_list, ratio, shuffle=True):
+    n_total = len(full_list)
+    offset = int(n_total * ratio)
+    if n_total == 0 or offset < 1:
+        return [], full_list
+    if shuffle:
+        random.shuffle(full_list)
+    sublist_1 = full_list[:offset]
+    sublist_2 = full_list[offset:]
+    return sublist_1, sublist_2
